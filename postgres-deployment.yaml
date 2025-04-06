@@ -23,3 +23,8 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 5672
+        env: 
+          - name: POSTGRES_USER
+            value: "postgres"
+          - name: POSTGRES_PASSWORD
+            value: "postgres"
